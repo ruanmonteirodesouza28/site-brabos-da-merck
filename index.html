@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="theme-color" content="#050508"/>
+<title>Brabos da Merck — Melhor Barbearia em Jacarepaguá, RJ</title>
+<meta name="description" content="Brabos da Merck: a melhor barbearia de Jacarepaguá e região da Merck, RJ. Corte disfarçado, nevou, pigmentação e barba modelada. Sem marcação, ordem de chegada. Terça a Sábado 09:30–20:00."/>
+<meta name="keywords" content="barbearia Merck, barbearia Jacarepaguá, corte de cabelo masculino RJ, nevou, corte disfarçado, barba modelada, pigmentação cabelo, Brabos da Merck"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://brabosdamerck.netlify.app/"/>
+
+<!-- Open Graph / WhatsApp / Instagram -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://brabosdamerck.netlify.app/"/>
+<meta property="og:title" content="Brabos da Merck — Melhor Barbearia em Jacarepaguá, RJ"/>
+<meta property="og:description" content="Corte disfarçado, nevou, pigmentação e barba modelada. Sem marcação, ordem de chegada. Merck, RJ."/>
+<meta property="og:image" content="https://brabosdamerck.netlify.app/Brand/logo-barbearia-brabos-da-merck-rj.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="pt_BR"/>
+<meta property="og:site_name" content="Brabos da Merck"/>
+<meta name="twitter:card" content="summary_large_image"/>
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Brabos da Merck",
+  "url": "https://brabosdamerck.netlify.app/",
+  "telephone": "+55-21-96603-1996",
+  "image": "https://brabosdamerck.netlify.app/Brand/logo-barbearia-brabos-da-merck-rj.png",
+  "description": "Melhor barbearia de Jacarepaguá. Corte disfarçado, nevou, pigmentação e barba modelada. Sem marcação, ordem de chegada.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua José Perigault, nº115, Loja 211",
+    "addressLocality": "Jacarepaguá",
+    "addressRegion": "RJ",
+    "postalCode": "22750-000",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -22.9411,
+    "longitude": -43.3700
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:30",
+      "closes": "20:00"
+    }
+  ],
+  "priceRange": "R$8–R$135",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços de Barbearia",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Nevou"},"price":"100","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Platinado + Corte"},"price":"135","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Corte Disfarçado"},"price":"40","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Corte na Tesoura"},"price":"45","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Corte + Barba"},"price":"55","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Barba Modelada"},"price":"25","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Pigmentação"},"price":"15","priceCurrency":"BRL"},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Acabamento"},"price":"8","priceCurrency":"BRL"}
+    ]
+  },
+  "sameAs": [
+    "https://www.instagram.com/correiayohan/",
+    "https://wa.me/5521966031996"
+  ]
+}
+</script>
+<link rel="icon" type="image/png" href="Brand/logo-barbearia-brabos-da-merck-rj.png"/>
+<link rel="apple-touch-icon" href="Brand/logo-barbearia-brabos-da-merck-rj.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+/* ═══════════════════════════════════════════
+    DESIGN SYSTEM
+═══════════════════════════════════════════ */
+:root{
+  --bg:      #05050A;
+  --surface: #080B13;
+  --card:    #0C1018;
+  --blue:    #E8A820;
+  --blue-d:  #B8820A;
+  --gold:    #E8A820;
+  --gold-b:  #FFD060;
+  --white:   #EEF2FF;
+  --muted:   #55657F;
+  --ok:      #00E888;
+  --err:     #FF2244;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--white);
+  font-family:'Rajdhani',sans-serif;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+/* scrollbar */
+::-webkit-scrollbar{width:3px;height:3px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--blue-d);border-radius:2px}
+
+.bb{font-family:'Bebas Neue',cursive}
+
+/* ── Keyframes ─────────────────────────────── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-18px)}to{opacity:1;transform:none}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes warnScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes marqueeL{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes pulsOk{0%,100%{box-shadow:0 0 6px var(--ok),0 0 14px rgba(0,232,136,.2)}
+                  50%{box-shadow:0 0 14px var(--ok),0 0 28px rgba(0,232,136,.45)}}
+@keyframes pulsErr{0%,100%{box-shadow:0 0 6px var(--err),0 0 14px rgba(255,34,68,.2)}
+                   50%{box-shadow:0 0 14px var(--err),0 0 28px rgba(255,34,68,.45)}}
+@keyframes glowPulse{0%,100%{opacity:.6}50%{opacity:1}}
+@keyframes borderFlicker{0%,100%{border-color:rgba(232,168,32,.18)}
+                          50%{border-color:rgba(232,168,32,.55)}}
+
+/* ── Scroll reveal ─────────────────────────── */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .65s ease}
+.reveal.on{opacity:1;transform:none}
+.reveal.d1{transition-delay:.1s}
+.reveal.d2{transition-delay:.2s}
+.reveal.d3{transition-delay:.3s}
+
+/* ── Navbar ────────────────────────────────── */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  height:5.5rem;display:flex;align-items:center;justify-content:space-between;
+  padding:0 1rem;
+  background:rgba(5,5,10,.88);
+  backdrop-filter:blur(18px) saturate(180%);
+  border-bottom:1px solid rgba(232,168,32,.12);
+  animation:fadeDown .5s ease both;
+}
+
+/* ── Drawer ────────────────────────────────── */
+.drawer{
+  position:fixed;top:0;right:0;bottom:0;z-index:200;
+  width:17rem;
+  background:var(--surface);
+  border-left:1px solid rgba(232,168,32,.18);
+  padding:1.4rem;
+  display:flex;flex-direction:column;
+  transform:translateX(100%);
+  transition:transform .3s cubic-bezier(.4,0,.2,1);
+}
+.drawer.open{transform:translateX(0)}
+.overlay{
+  position:fixed;inset:0;z-index:150;
+  background:rgba(5,5,10,.82);
+  backdrop-filter:blur(5px);
+  opacity:0;pointer-events:none;
+  transition:opacity .3s ease;
+}
+.overlay.show{opacity:1;pointer-events:all}
+
+/* ── Status pill ───────────────────────────── */
+.pill{
+  display:flex;align-items:center;gap:.35rem;
+  padding:.18rem .7rem;
+  border-radius:9999px;
+  border:1px solid;
+  font-family:'Bebas Neue',cursive;
+  font-size:.68rem;letter-spacing:.18em;
+  background:rgba(5,5,10,.5);
+}
+.dot{width:.4rem;height:.4rem;border-radius:50%;display:inline-block}
+
+/* ── Hero ──────────────────────────────────── */
+.hero{
+  position:relative;
+  min-height:100svh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:5rem 1.25rem 3.5rem;
+  overflow:hidden;
+}
+.hero-img{
+  position:absolute;inset:0;
+  background:url('Brand/corte-degrade-masculino-barbearia-merck.jpg') center top/cover no-repeat;
+  filter:brightness(.38) saturate(.7);
+}
+.hero-fade{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,var(--bg) 0%,rgba(5,5,10,.65) 45%,rgba(5,5,10,.2) 75%,transparent 100%);
+}
+/* left blue line */
+.hero-line{position:absolute;left:0;top:0;width:3px;height:100%;background:linear-gradient(to bottom,transparent,var(--blue) 40%,transparent)}
+/* radial bloom */
+.hero-glow{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 65% 50% at 50% 38%,rgba(232,168,32,.1) 0%,transparent 70%)}
+
+/* ── Warning banner ────────────────────────── */
+.warn-wrap{position:sticky;top:5.5rem;z-index:90;overflow:hidden;padding:.55rem 0;background:#000;border-top:1px solid rgba(232,168,32,.3);border-bottom:1px solid rgba(232,168,32,.3)}
+.warn-track{display:flex;width:max-content;animation:warnScroll 14s linear infinite}
+.warn-track:hover{animation-play-state:paused}
+.warn-item{display:flex;align-items:center;gap:.75rem;padding:0 2.25rem;white-space:nowrap;font-family:'Bebas Neue',cursive;font-size:1rem;letter-spacing:.14em;color:#fff}
+
+/* ── Price cards ───────────────────────────── */
+.pcard{
+  position:relative;
+  background:var(--card);
+  border:1px solid rgba(232,168,32,.15);
+  border-radius:.9rem;
+  padding:1.3rem;
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+  overflow:hidden;
+  animation:borderFlicker 4s ease-in-out infinite;
+}
+.pcard::after{
+  content:'';position:absolute;inset:0;border-radius:inherit;opacity:0;
+  background:radial-gradient(circle at 50% 0%,rgba(232,168,32,.07) 0%,transparent 65%);
+  transition:opacity .25s ease;
+}
+.pcard:hover{transform:translateY(-5px);border-color:rgba(232,168,32,.55);box-shadow:0 0 24px rgba(232,168,32,.18),0 10px 40px rgba(0,0,0,.5);animation:none}
+.pcard:hover::after{opacity:1}
+.pcard.gold-c{border-color:rgba(232,168,32,.25);animation:none}
+.pcard.gold-c:hover{border-color:rgba(255,208,96,.65);box-shadow:0 0 28px rgba(232,168,32,.2),0 10px 40px rgba(0,0,0,.5)}
+.pcard.gold-c::after{background:radial-gradient(circle at 50% 0%,rgba(232,168,32,.09) 0%,transparent 65%)}
+.pcard:active{transform:scale(.97)}
+
+/* ── Gallery & Team ───────────────────────── */
+.gscroll{display:flex;gap:.85rem;overflow-x:auto;padding:.25rem 1.25rem 1rem;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.gscroll::-webkit-scrollbar{height:2px}
+.gitem{
+  flex:0 0 70vw;max-width:260px;aspect-ratio:3/4;
+  border-radius:.75rem;overflow:hidden;scroll-snap-align:center;
+  position:relative;border:1px solid rgba(232,168,32,.14);
+  cursor:pointer;
+}
+.gitem img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease;display:block}
+.gitem:hover img{transform:scale(1.06)}
+.gitem-label{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:.7rem .9rem;
+  background:linear-gradient(to top,rgba(5,5,10,.95),transparent);
+  font-family:'Bebas Neue',cursive;font-size:.9rem;letter-spacing:.1em;
+}
+
+/* ── Marquee reviews ───────────────────────── */
+.mwrap{overflow:hidden;padding:.25rem 0}
+.mtrack{display:flex;gap:1rem;animation:marqueeL 24s linear infinite;will-change:transform}
+.mtrack:hover{animation-play-state:paused}
+.rcard{
+  flex:0 0 220px;
+  background:var(--card);border:1px solid rgba(232,168,32,.12);
+  border-radius:.75rem;padding:.9rem 1.1rem;
+}
+
+/* ── Buttons ───────────────────────────────── */
+.btn-g{
+  display:flex;align-items:center;justify-content:center;gap:.6rem;
+  padding:.9rem 1.5rem;border-radius:.85rem;
+  background:#25D366;color:#fff;text-decoration:none;
+  font-family:'Bebas Neue',cursive;font-size:1.05rem;letter-spacing:.1em;
+  transition:transform .15s ease,box-shadow .2s ease;
+}
+.btn-g:hover{transform:translateY(-2px);box-shadow:0 0 22px rgba(37,211,102,.4)}
+.btn-g:active{transform:scale(.97)}
+.btn-b{
+  display:flex;align-items:center;justify-content:center;gap:.6rem;
+  padding:.85rem 1.5rem;border-radius:.85rem;
+  border:1px solid var(--blue);background:rgba(232,168,32,.07);
+  color:var(--white);text-decoration:none;
+  font-family:'Bebas Neue',cursive;font-size:1.05rem;letter-spacing:.1em;
+  transition:transform .15s ease,box-shadow .2s ease,background .2s ease;
+}
+.btn-b:hover{transform:translateY(-2px);background:rgba(232,168,32,.14);box-shadow:0 0 22px rgba(232,168,32,.28)}
+.btn-b:active{transform:scale(.97)}
+
+/* ── Drawer nav links ──────────────────────── */
+.dlink{
+  display:block;
+  padding:.6rem 0;
+  font-family:'Bebas Neue',cursive;
+  font-size:1.4rem;letter-spacing:.1em;
+  color:var(--white);text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,.06);
+  transition:color .15s,padding-left .15s;
+}
+.dlink:hover{color:var(--blue);padding-left:.4rem}
+.dlink:last-child{border-bottom:none}
+
+/* ── Section title ─────────────────────────── */
+.stitle{
+  font-family:'Bebas Neue',cursive;
+  font-size:1.9rem;letter-spacing:.1em;
+  display:flex;align-items:center;gap:.75rem;
+  margin-bottom:1.6rem;
+}
+.stitle::after{content:'';flex:1;height:1px;background:linear-gradient(to right,rgba(232,168,32,.4),transparent)}
+
+/* ── Divider ───────────────────────────────── */
+.divr{width:100%;height:1px;background:linear-gradient(to right,transparent,rgba(232,168,32,.25),transparent)}
+
+/* ── Contact cards ─────────────────────────── */
+.ccard{
+  display:flex;gap:.75rem;align-items:flex-start;
+  padding:1rem 1.1rem;border-radius:.85rem;
+  background:var(--card);border:1px solid rgba(232,168,32,.14);
+}
+
+/* ── Hero entry anims ──────────────────────── */
+.h1{animation:fadeUp .8s .05s ease both}
+.h2{animation:fadeUp .8s .2s  ease both}
+.h3{animation:fadeUp .8s .35s ease both}
+.h4{animation:fadeUp .8s .5s  ease both}
+.h5{animation:fadeUp .8s .65s ease both}
+
+/* ── Scroll arrow float ────────────────────── */
+.scroll-hint{animation:float 2.5s ease-in-out infinite}
+
+/* ── Fotos dos cortes ──────────────────────── */
+.cuts-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:.5rem;
+  margin-top:.75rem;
+}
+.cuts-grid img{
+  width:100%;aspect-ratio:1/1;object-fit:cover;
+  border-radius:.55rem;
+  border:1px solid rgba(232,168,32,.15);
+}
+.cuts-label{
+  font-family:'Bebas Neue',cursive;
+  font-size:.8rem;letter-spacing:.12em;
+  color:var(--blue);
+  text-align:center;
+  margin-top:.25rem;
+}
+
+/* ── Lista de preços ───────────────────────── */
+.price-list{
+  display:flex;flex-direction:column;
+  border:1px solid rgba(232,168,32,.18);
+  border-radius:.9rem;
+  overflow:hidden;
+}
+.price-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.85rem 1.1rem;
+  border-bottom:1px solid rgba(232,168,32,.1);
+  transition:background .15s;
+}
+.price-row:last-child{border-bottom:none}
+.price-row:hover{background:rgba(232,168,32,.05)}
+.price-row.premium{background:rgba(232,168,32,.06);border-bottom-color:rgba(232,168,32,.15)}
+.price-row.premium:hover{background:rgba(232,168,32,.1)}
+.price-name{font-weight:600;font-size:.95rem;letter-spacing:.04em}
+.price-val{
+  font-family:'Bebas Neue',cursive;
+  font-size:1.3rem;letter-spacing:.04em;
+  color:var(--white);white-space:nowrap;
+  border:1px solid rgba(232,168,32,.25);
+  border-radius:.45rem;
+  padding:.1rem .55rem;
+}
+.price-row.premium .price-val{color:var(--white)}
+.price-badge{
+  font-family:'Bebas Neue',cursive;font-size:.6rem;letter-spacing:.12em;
+  padding:.1rem .4rem;border-radius:9999px;
+  background:linear-gradient(135deg,var(--gold),#FF8800);color:#000;
+  margin-left:.5rem;vertical-align:middle;
+}
+
+/* ── Lightbox ──────────────────────────────── */
+.lb{
+  position:fixed;inset:0;z-index:999;
+  background:rgba(0,0,0,.92);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;
+  transition:opacity .25s ease;
+}
+.lb.open{opacity:1;pointer-events:all}
+.lb img{
+  max-width:92vw;max-height:88vh;
+  object-fit:contain;
+  border-radius:.75rem;
+  transform:scale(.88);
+  transition:transform .25s ease;
+}
+.lb.open img{transform:scale(1)}
+.lb-close{
+  position:absolute;top:1rem;right:1rem;
+  width:2.4rem;height:2.4rem;
+  border-radius:50%;
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.2);
+  cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+}
+.zoomable{cursor:zoom-in}
+
+/* ── Botão flutuante WhatsApp ──────────────── */
+@keyframes waPulse{
+  0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}
+  60%{box-shadow:0 0 0 14px rgba(37,211,102,0)}
+}
+.wa-float{
+  position:fixed;bottom:1.5rem;right:1.25rem;z-index:300;
+  width:3.4rem;height:3.4rem;border-radius:50%;
+  background:#25D366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 18px rgba(37,211,102,.4);
+  animation:waPulse 2.2s ease-in-out infinite;
+  opacity:0;pointer-events:none;
+  transform:scale(.7);
+  transition:opacity .3s ease,transform .3s ease;
+}
+.wa-float.visible{opacity:1;pointer-events:all;transform:scale(1)}
+.wa-float:hover{transform:scale(1.1)!important;animation-play-state:paused}
+
+/* ── Desktop overrides ─────────────────────── */
+@media(min-width:640px){
+  .gitem{flex:0 0 240px}
+}
+@media(min-width:768px){
+  .pgrid{grid-template-columns:repeat(3,1fr)!important}
+  .nevou-span{grid-column:span 1!important}
+  .pe-span{grid-column:span 1!important}
+}
+@media(min-width:1024px){
+  .hero{padding:5rem 5rem 4.5rem}
+  .gscroll{
+    display:grid!important;
+    grid-template-columns:repeat(4,1fr);
+    overflow-x:unset;
+    padding:0!important;
+  }
+  .gitem{flex:unset;max-width:unset}
+  .inner{max-width:64rem;margin-left:auto;margin-right:auto}
+}
+</style>
+</head>
+<body>
+
+<div class="overlay" id="ov" onclick="closeD()"></div>
+
+<!-- Botão flutuante WhatsApp -->
+<a href="https://wa.me/5521966031996" target="_blank" rel="noopener" class="wa-float" id="waFloat" aria-label="Chamar no WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.532 5.86L.036 23.737a.5.5 0 0 0 .611.64l6.037-1.582A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.854 0-3.6-.504-5.1-1.38l-.367-.214-3.8.998 1.015-3.695-.24-.384A9.934 9.934 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+</a>
+
+<!-- Lightbox -->
+<div class="lb" id="lb" onclick="closeLb()">
+  <button class="lb-close" onclick="closeLb()" aria-label="Fechar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <img id="lb-img" src="" alt=""/>
+</div>
+
+<nav class="drawer" id="drawer">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2rem">
+    <img src="Brand/logo-barbearia-brabos-da-merck-rj.png" alt="Logo" style="height:11rem;margin:0 auto"/>
+    <button onclick="closeD()" aria-label="Fechar" style="background:none;border:none;cursor:pointer;padding:.4rem;color:var(--muted);font-size:1.5rem;line-height:1">✕</button>
+  </div>
+  <ul style="list-style:none;display:flex;flex-direction:column;flex:1">
+    <li><a href="#hero"    class="dlink" onclick="closeD()">Início</a></li>
+    <li><a href="#time"    class="dlink" onclick="closeD()">Nosso Time</a></li>
+    <li><a href="#precos"  class="dlink" onclick="closeD()">Preços</a></li>
+    <li><a href="#galeria" class="dlink" onclick="closeD()">Galeria</a></li>
+    <li><a href="#local"   class="dlink" onclick="closeD()">Localização</a></li>
+  </ul>
+  <div style="margin-top:auto">
+    <a href="https://wa.me/5521966031996" target="_blank" class="btn-g">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.532 5.86L.036 23.737a.5.5 0 0 0 .611.64l6.037-1.582A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.854 0-3.6-.504-5.1-1.38l-.367-.214-3.8.998 1.015-3.695-.24-.384A9.934 9.934 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      WHATSAPP
+    </a>
+  </div>
+</nav>
+
+<header class="nav">
+  <a href="#hero" style="position:absolute;left:50%;transform:translateX(-50%)">
+    <img src="Brand/logo-barbearia-brabos-da-merck-rj.png" alt="Brabos da Merck" style="height:4.8rem;width:auto"/>
+  </a>
+  <span class="pill" id="pill" style="margin-left:auto;margin-right:.75rem"></span>
+  <button onclick="openD()" aria-label="Menu" style="width:2.5rem;height:2.5rem;display:flex;align-items:center;justify-content:center;border:1px solid rgba(232,168,32,.28);border-radius:.6rem;background:rgba(232,168,32,.05);cursor:pointer">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8A820" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</header>
+
+<section class="hero" id="hero">
+  <div class="hero-img"></div>
+  <div class="hero-fade"></div>
+  <div class="hero-line"></div>
+  <div class="hero-glow"></div>
+
+  <svg aria-hidden="true" style="position:absolute;right:-1.5rem;top:8rem;width:min(14rem,55vw);opacity:.035;pointer-events:none" viewBox="0 0 100 110" fill="white">
+    <ellipse cx="50" cy="43" rx="33" ry="36"/>
+    <rect x="29" y="69" width="42" height="20" rx="5"/>
+    <rect x="35" y="74" width="11" height="15" rx="2.5" fill="#05050A"/>
+    <rect x="54" y="74" width="11" height="15" rx="2.5" fill="#05050A"/>
+    <ellipse cx="37" cy="42" rx="9" ry="10" fill="#05050A"/>
+    <ellipse cx="63" cy="42" rx="9" ry="10" fill="#05050A"/>
+    <ellipse cx="50" cy="57" rx="4.5" ry="5.5" fill="#05050A"/>
+    <rect x="32" y="60" width="7" height="3.5" rx="1.75" fill="#05050A"/>
+    <rect x="61" y="60" width="7" height="3.5" rx="1.75" fill="#05050A"/>
+  </svg>
+
+  <div style="position:relative;z-index:2;max-width:30rem">
+    <div class="h1" style="display:inline-flex;align-items:center;gap:.5rem;padding:.28rem .85rem;border-radius:9999px;border:1px solid rgba(232,168,32,.3);background:rgba(232,168,32,.07);margin-bottom:1.1rem">
+      <span style="width:.38rem;height:.38rem;border-radius:50%;background:var(--blue);display:inline-block"></span>
+      <span style="font-size:.62rem;letter-spacing:.32em;color:var(--blue);font-weight:700">MERCK · RIO DE JANEIRO</span>
+    </div>
+
+    <h1 class="bb h2" style="font-size:clamp(4.2rem,23vw,7.5rem);line-height:.93;letter-spacing:.02em;margin-bottom:.5rem">
+      BRABOS<br>
+      <span style="color:var(--gold);filter:drop-shadow(0 0 18px rgba(232,168,32,.5))">DA MERCK</span>
+    </h1>
+
+    <p class="bb h3" style="font-size:clamp(1.1rem,5.5vw,1.7rem);letter-spacing:.16em;color:var(--white);margin-bottom:1.75rem">
+      O BRABO TEM NOME!
+    </p>
+
+    <div class="h4" style="display:flex;flex-direction:column;gap:.65rem;max-width:22rem">
+      <a href="https://wa.me/5521966031996" target="_blank" class="btn-g">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.532 5.86L.036 23.737a.5.5 0 0 0 .611.64l6.037-1.582A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.854 0-3.6-.504-5.1-1.38l-.367-.214-3.8.998 1.015-3.695-.24-.384A9.934 9.934 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        CHAMAR NO WHATSAPP
+      </a>
+    </div>
+
+    <p class="h5" style="margin-top:1.4rem;font-size:.85rem;color:var(--muted);font-weight:500">
+      por <a href="https://www.instagram.com/brabos_da_merck?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="color:var(--blue);text-decoration:none">@brabos_da_merck</a>
+    </p>
+  </div>
+
+  <div class="scroll-hint" style="position:absolute;bottom:1.4rem;left:50%;transform:translateX(-50%);opacity:.35">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+</section>
+
+<div class="warn-wrap">
+  <div class="warn-track" aria-label="Sem marcação, apenas ordem de chegada">
+    <div class="warn-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg> SEM MARCAÇÃO — APENAS ORDEM DE CHEGADA</div>
+    <div class="warn-item">✂  CHEGOU PRIMEIRO, É ATENDIDO PRIMEIRO  ✂</div>
+    <div class="warn-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg> SEM MARCAÇÃO — APENAS ORDEM DE CHEGADA</div>
+    <div class="warn-item">✂  CHEGOU PRIMEIRO, É ATENDIDO PRIMEIRO  ✂</div>
+  </div>
+</div>
+
+<section id="time" style="padding:4rem 1.25rem 2rem">
+  <div class="inner">
+    <div class="stitle reveal">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8A820" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      OS BRABOS DO TIME
+    </div>
+    <div class="reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;align-items:start">
+
+      <!-- YOHAN -->
+      <div>
+        <div class="pcard" style="padding:0;overflow:hidden;text-align:center">
+          <div style="position:relative">
+            <img src="Brand/Barbeiro-Yohan-Brabosdamerck.jpeg" alt="Yohan Correa barbeiro dono da Brabos da Merck Jacarepaguá RJ" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block" onerror="this.src='https://via.placeholder.com/300x300/0C1018/00AAFF?text=Yohan'"/>
+            <div style="position:absolute;bottom:0;left:0;right:0;height:45%;background:linear-gradient(to top,var(--card) 0%,transparent 100%)"></div>
+          </div>
+          <div style="padding:1rem">
+            <p class="bb" style="font-size:1.6rem;color:var(--blue);letter-spacing:0.05em">YOHAN</p>
+            <p style="font-size:0.75rem;color:var(--muted);letter-spacing:0.1em;font-weight:600;margin-bottom:.55rem">DONO DA BRABOS DA MERCK</p>
+            <p style="font-size:.8rem;color:var(--white);line-height:1.55;text-align:left">Cortando há mais de 10 anos, Yohan Correa abriu a Brabos da Merck em 2016. Especialidade em cortes diversos, nevou e pigmentação.</p>
+            <a href="https://www.instagram.com/correiayohan/?utm_source=ig_web_button_share_sheet" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;color:var(--gold);font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:0.6rem;margin-bottom:0.2rem;transition:transform 0.2s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>@correiayohan</a>
+            <p class="bb" style="font-size:.75rem;letter-spacing:.18em;color:var(--blue);margin-top:.9rem;margin-bottom:.4rem">CONFIRA OS CORTES DE YOHAN</p>
+            <div class="cuts-grid">
+              <div onclick="openLb(this)" class="zoomable"><img src="Brand/corte-degrade-masculino-barbearia-merck.jpg" alt="Disfarçado"/><p class="cuts-label">Disfarçado</p></div>
+              <div onclick="openLb(this)" class="zoomable"><img src="Brand/nevou-premium-barbearia-brabos-da-merck.jpeg" alt="Nevou"/><p class="cuts-label">Nevou</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FALCÃO -->
+      <div>
+        <div class="pcard d1" style="padding:0;overflow:hidden;text-align:center">
+          <div style="position:relative">
+            <img src="Brand/Barbeiroo-merck.jpeg" alt="Falcão barbeiro especialista corte disfarçado barba modelada Merck RJ" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block" onerror="this.src='https://via.placeholder.com/300x300/0C1018/00AAFF?text=Falcão'"/>
+            <div style="position:absolute;bottom:0;left:0;right:0;height:45%;background:linear-gradient(to top,var(--card) 0%,transparent 100%)"></div>
+          </div>
+          <div style="padding:1rem">
+            <p class="bb" style="font-size:1.6rem;color:var(--blue);letter-spacing:0.05em">FALCÃO</p>
+            <p style="font-size:0.75rem;color:var(--muted);letter-spacing:0.1em;font-weight:600;margin-bottom:.55rem">BARBEIRO FORMADO DESDE 2024</p>
+            <p style="font-size:.8rem;color:var(--white);line-height:1.55;text-align:left">Especialista em corte disfarçado e barba modelada.</p>
+            <a href="https://www.instagram.com/henrifalcao_?igsh=MTE2dGl0amVhNnUzcQ==" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;color:var(--gold);font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:0.6rem;margin-bottom:0.2rem;transition:transform 0.2s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>@henrifalcao_</a>
+            <p class="bb" style="font-size:.75rem;letter-spacing:.18em;color:var(--blue);margin-top:.9rem;margin-bottom:.4rem">CONFIRA OS CORTES DE FALCÃO</p>
+            <div class="cuts-grid">
+              <div onclick="openLb(this)" class="zoomable"><img src="Brand/corte-disfarcado-fade-barbeiro-falcao..jpeg" alt="Disfarçado"/><p class="cuts-label">Disfarçado</p></div>
+              <div onclick="openLb(this)" class="zoomable"><img src="Brand/barba-modelada-alinhada-rio-de-janeiro.jpeg" alt="Barba Modelada"/><p class="cuts-label">Barba Modelada</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divr" style="margin:0 1.25rem"></div>
+
+<section id="precos" style="padding:3.5rem 1.25rem 2.5rem">
+  <div class="inner">
+    <div class="stitle reveal">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#E8A820" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+      NOSSOS SERVIÇOS
+    </div>
+
+    <div class="price-list reveal">
+      <div class="price-row premium">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#E8A820" stroke-width="2" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/><line x1="19.07" y1="4.93" x2="4.93" y2="19.07"/></svg>
+          Nevou <span class="price-badge">PREMIUM</span>
+        </span>
+        <span class="price-val">R$ 100</span>
+      </div>
+      <div class="price-row premium">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#E8A820" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Platinado + Corte <span class="price-badge">PREMIUM</span>
+        </span>
+        <span class="price-val">R$ 135</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+          Corte Disfarçado
+        </span>
+        <span class="price-val">R$ 40</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+          Corte na Tesoura
+        </span>
+        <span class="price-val">R$ 45</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+          Corte + Barba
+        </span>
+        <span class="price-val">R$ 55</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+          Corte Simples + Barba
+        </span>
+        <span class="price-val">R$ 50</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+          Corte + Pigmentação
+        </span>
+        <span class="price-val">R$ 50</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+          Corte + Sobrancelha
+        </span>
+        <span class="price-val">R$ 45</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><line x1="12" y1="7" x2="12" y2="21"/><line x1="7" y1="12" x2="17" y2="12"/></svg>
+          Corte na Gilete
+        </span>
+        <span class="price-val">R$ 25</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07"/></svg>
+          Máquina Simples
+        </span>
+        <span class="price-val">R$ 20</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><line x1="12" y1="7" x2="12" y2="21"/><line x1="7" y1="12" x2="17" y2="12"/></svg>
+          Barba Modelada
+        </span>
+        <span class="price-val">R$ 25</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          Pigmentação
+        </span>
+        <span class="price-val">R$ 15</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name" style="display:inline-flex;align-items:center;gap:.4rem">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Acabamento
+        </span>
+        <span class="price-val">R$ 8</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:1.5rem;display:flex;flex-direction:column;align-items:center;gap:.5rem;text-align:center">
+      <p style="font-size:.85rem;color:var(--muted);font-weight:600;letter-spacing:.08em">GOSTOU? CHAMA A GENTE!</p>
+      <a href="https://wa.me/5521966031996?text=Ol%C3%A1%2C+vi+os+pre%C3%A7os+no+site+e+quero+saber+mais!" target="_blank" class="btn-g" style="width:100%;max-width:22rem">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.532 5.86L.036 23.737a.5.5 0 0 0 .611.64l6.037-1.582A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.854 0-3.6-.504-5.1-1.38l-.367-.214-3.8.998 1.015-3.695-.24-.384A9.934 9.934 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        QUERO MARCAR UM HORÁRIO
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="galeria" style="padding:3rem 0 2rem">
+  <div style="padding:0 1.25rem" class="inner">
+    <div class="stitle reveal">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#E8A820" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+      NOSSOS TRABALHOS
+    </div>
+  </div>
+  <div class="gscroll reveal inner">
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/corte-disfarcado-fade-barbeiro-falcao..jpeg" alt="Corte disfarçado masculino barbearia Merck Jacarepaguá RJ" loading="lazy"/><div class="gitem-label">Disfarçado</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/barba-modelada-alinhada-rio-de-janeiro.jpeg" alt="Barba modelada degradê barbearia Brabos da Merck RJ" loading="lazy"/><div class="gitem-label">Barba Modelada</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/nevou-premium-barbearia-brabos-da-merck.jpeg" alt="Nevou cabelo masculino barbearia Jacarepaguá Rio de Janeiro" loading="lazy"/><div class="gitem-label">Nevou</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/Barba modelada.jpeg" alt="Barba modelada masculina barbearia Merck RJ" loading="lazy"/><div class="gitem-label">Barba Modelada</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/corte-degrade-masculino-barbearia-merck.jpg" alt="Corte de cabelo masculino degradê Brabos da Merck Jacarepaguá" loading="lazy"/><div class="gitem-label">Corte</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/corte-social-moderno-barbearia-merck-rj.jpg" alt="Corte masculino na tesoura barbearia Merck Rio de Janeiro" loading="lazy"/><div class="gitem-label">Corte</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/corte-com-pigmentacao-barbearia-jacarepagua.jpg" alt="Pigmentação capilar masculina barbearia Jacarepaguá RJ" loading="lazy"/><div class="gitem-label">Pigmentado</div></div>
+    <div class="gitem" onclick="openLb(this)"><img src="Brand/corte-nevou-platinado-masculino-merck.jpg" alt="Nevou corte masculino barbearia Brabos da Merck RJ" loading="lazy"/><div class="gitem-label">Nevou</div></div>
+  </div>
+</section>
+
+<section style="padding:3rem 0 2.5rem">
+  <div class="mwrap">
+    <div class="mtrack">
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Melhor barbearia da Merck, sem discussão."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Thiago M., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Fui uma vez e nunca mais cortei em outro lugar."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Kaique R., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Yohan tem a mão mais leve da região."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Douglas F., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Saí do nevou diferente. Rapaziada aqui do bairro aprovou!"</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Léo S., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Falcão arrasou na barba. Virei cliente fixo aqui."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Mateus G., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Estava de passagem pelo RJ e entrei por acaso. Melhor corte que já fiz na vida. Vou voltar quando vier de novo!"</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Rafael T., São Paulo — SP</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"O disfarçado ficou impecável. Voltei na semana seguinte."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Renan C., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Pigmentação perfeita, preço justo e ainda fui bem atendido."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Vitor H., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Aqui no bairro todo mundo sabe: o brabo tem nome!"</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Igor P., Jacarepaguá</p></div>
+      <!-- duplicatas para loop contínuo -->
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Melhor barbearia da Merck, sem discussão."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Thiago M., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Fui uma vez e nunca mais cortei em outro lugar."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Kaique R., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Yohan tem a mão mais leve da região."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Douglas F., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Saí do nevou diferente. Rapaziada aqui do bairro aprovou!"</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Léo S., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Falcão arrasou na barba. Virei cliente fixo aqui."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Mateus G., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Estava de passagem pelo RJ e entrei por acaso. Melhor corte que já fiz na vida. Vou voltar quando vier de novo!"</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Rafael T., São Paulo — SP</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"O disfarçado ficou impecável. Voltei na semana seguinte."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Renan C., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Pigmentação perfeita, preço justo e ainda fui bem atendido."</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Vitor H., Jacarepaguá</p></div>
+      <div class="rcard"><p style="color:#E8A820;margin-bottom:.3rem">★★★★★</p><p style="font-weight:600;font-size:.9rem">"Aqui no bairro todo mundo sabe: o brabo tem nome!"</p><p style="font-size:.75rem;color:var(--muted);margin-top:.4rem">— Igor P., Jacarepaguá</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="local" style="padding:3rem 1.25rem 2.5rem">
+  <div class="inner" style="max-width:36rem">
+    <div class="stitle reveal">📍 ONDE ESTAMOS</div>
+    <div class="reveal" style="display:flex;flex-direction:column;gap:.75rem">
+      <div class="ccard">
+        <p style="font-weight:600">Rua José Perigault, nº115, Loja 211 — Merck, RJ</p>
+      </div>
+      <div class="ccard">
+        <p style="font-weight:600">Terça a Sábado: 09:30 — 20:00</p>
+      </div>
+      <iframe
+        title="Localização Brabos da Merck — Rua José Perigault, Merck, Jacarepaguá, RJ"
+        src="https://maps.google.com/maps?q=Rua+Jos%C3%A9+Perigault,+115,+Jacarepagu%C3%A1,+Rio+de+Janeiro,+Brasil&output=embed"
+        width="100%" height="220"
+        style="border:0;border-radius:.85rem;filter:invert(.9) hue-rotate(180deg);margin-top:.25rem"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <a href="https://wa.me/5521966031996" target="_blank" class="btn-g">WHATSAPP</a>
+    </div>
+  </div>
+</section>
+
+<footer style="border-top:1px solid rgba(232,168,32,.1);padding:3rem 6.5rem;margin-top:1.5rem">
+  <div style="max-width:36rem;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:1.5rem">
+    <img src="Brand/logo-barbearia-brabos-da-merck-rj.png" alt="Brabos da Merck" style="height:13rem;filter:brightness(1.2)"/>
+    <p class="bb" style="font-size:.8rem;letter-spacing:.2em;color:var(--muted)">BRABOS DA MERCK © 2026</p>
+    <p class="bb" style="font-size:.8rem;letter-spacing:.15em;color:rgba(85,101,127,0.5)">O BRABO TEM NOME!</p>
+  </div>
+</footer>
+
+<script>
+function openLb(el){
+  var img = el.querySelector('img');
+  document.getElementById('lb-img').src = img.src;
+  document.getElementById('lb').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLb(){
+  document.getElementById('lb').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeLb(); });
+
+function openD(){ document.getElementById('drawer').classList.add('open'); document.getElementById('ov').classList.add('show'); document.body.style.overflow='hidden'; }
+function closeD(){ document.getElementById('drawer').classList.remove('open'); document.getElementById('ov').classList.remove('show'); document.body.style.overflow=''; }
+
+function updatePill(){
+  const n=new Date(), d=n.getDay(), t=n.getHours()*60+n.getMinutes();
+  const open=d>=2&&d<=6&&t>=(9*60+30)&&t<(20*60);
+  const pill=document.getElementById('pill');
+  const c=open?'var(--ok)':'var(--err)';
+  pill.style.borderColor=c; pill.style.color=c;
+  pill.style.animation=open?'pulsOk 2.5s ease-in-out infinite':'pulsErr 2.5s ease-in-out infinite';
+  pill.innerHTML=`<span class="dot" style="background:${c}"></span>${open?'ABERTA':'FECHADA'}`;
+}
+updatePill(); setInterval(updatePill,30000);
+
+// Botão flutuante WhatsApp — aparece após 300px de scroll
+(function(){
+  var btn=document.getElementById('waFloat');
+  window.addEventListener('scroll',function(){
+    btn.classList.toggle('visible',window.scrollY>300);
+  },{passive:true});
+})();
+
+const io=new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target); } }); },{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
